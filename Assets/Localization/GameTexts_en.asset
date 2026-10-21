@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTexts_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 627914a4bfcb44cebbf4e7521753f6db, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6349512499200
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6494278901760
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6570472628224
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6632896454656
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6723002687488
+    m_Localized: Upgrades
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6819819806720
+    m_Localized: Start Digging
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6906151165952
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6966972768256
+    m_Localized: Sound Effects
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7041979506688
+    m_Localized: Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7131808915456
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7194094329856
+    m_Localized: Notification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7274272645120
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342505582592
+    m_Localized: Reset to Default
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7441973501952
+    m_Localized: Sell All
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7513071149056
+    m_Localized: Rest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7567806816256
+    m_Localized: Return to Surface
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

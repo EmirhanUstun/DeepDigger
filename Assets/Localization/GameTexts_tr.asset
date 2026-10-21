@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameTexts_tr
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 627914a4bfcb44cebbf4e7521753f6db, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6349512499200
+    m_Localized: Oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6494278901760
+    m_Localized: Ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6570472628224
+    m_Localized: "Ma\u011Faza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6632896454656
+    m_Localized: Koleksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6723002687488
+    m_Localized: "Y\xFCkseltme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6819819806720
+    m_Localized: "Kazmaya Ba\u015Fla"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6906151165952
+    m_Localized: "M\xFCzik"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6966972768256
+    m_Localized: Ses Efektleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7041979506688
+    m_Localized: "Titre\u015Fim"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7131808915456
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7194094329856
+    m_Localized: Bildirimler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7274272645120
+    m_Localized: Kaydet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7342505582592
+    m_Localized: "Varsay\u0131lana D\xF6n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7441973501952
+    m_Localized: Hepsini Sat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7513071149056
+    m_Localized: Dinlen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7567806816256
+    m_Localized: "Y\xFCzeye D\xF6n"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
