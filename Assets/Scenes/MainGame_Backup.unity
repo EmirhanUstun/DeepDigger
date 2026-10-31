@@ -155,6 +155,8 @@ MonoBehaviour:
   level: 1
   pickaxePower: 1
   miningEnergyCost: 5
+  surfaceReturnEnergyCost: 10
+  emergencyRescueCost: 20
   bagCapacity: 20
 --- !u!4 &297014124
 Transform:
@@ -422,9 +424,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MineGrid2D
   miningManager: {fileID: 297014123}
+  miner: {fileID: 0}
   columns: 6
   rows: 6
   tileSize: 0.85
+  oreSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  equippedPickaxeTier: 0
+  debugClicks: 0
 --- !u!4 &1038683793
 Transform:
   m_ObjectHideFlags: 0

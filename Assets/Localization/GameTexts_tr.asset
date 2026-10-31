@@ -82,6 +82,170 @@ MonoBehaviour:
     m_Localized: "Y\xFCzeye D\xF6n"
     m_Metadata:
       m_Items: []
+  - m_Id: 5127246770593792
+    m_Localized: "Ma\u011Faza"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127309970366464
+    m_Localized: "Maden Sat\u0131\u015F\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127388751978496
+    m_Localized: "Toplad\u0131\u011F\u0131n madenleri satarak alt\u0131n kazan!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127552468246528
+    m_Localized: Sat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127690951581696
+    m_Localized: "Toplam De\u011Fer: 0"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127798535479296
+    m_Localized: Enerji Doldur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127882484473856
+    m_Localized: "1.000 Alt\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127967700148224
+    m_Localized: "Sat\u0131n Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128019432693760
+    m_Localized: "\xD6d\xFCl\xFC Al"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128100730888192
+    m_Localized: "Ta\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128147639984128
+    m_Localized: "K\xF6m\xFCr"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128205450076160
+    m_Localized: "Bak\u0131r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128249205055488
+    m_Localized: Demir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128318759198720
+    m_Localized: "G\xFCm\xFC\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128432710049792
+    m_Localized: "Alt\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128502687817728
+    m_Localized: Kristal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128586150273024
+    m_Localized: Elmas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128641020157952
+    m_Localized: "Z\xFCmr\xFCt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128721135558656
+    m_Localized: Safir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128823199752192
+    m_Localized: Elmas Paketleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128933644165120
+    m_Localized: "20 \xD6zel Elmas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129029202993152
+    m_Localized: "60 \xD6zel Elmas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129142663110656
+    m_Localized: "150 \xD6zel Elmas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129238846889984
+    m_Localized: "\xD6deme sistemi hen\xFCz aktif de\u011Fil."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129459333062656
+    m_Localized: Enerji zaten tamamen dolu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129574047277056
+    m_Localized: "Yeterli alt\u0131n\u0131n yok! 0 alt\u0131n daha gerekli."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129783963803648
+    m_Localized: Enerji tamamen doldu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129944400125952
+    m_Localized: "+50 Alt\u0131n Kazand\u0131n\u0131z!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5130081063133184
+    m_Localized: "\xD6d\xFCl\xFCn\xFC zaten ald\u0131n!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5130223673663488
+    m_Localized: "Oyun verisi bulunamad\u0131!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5465912026062848
+    m_Localized: Koleksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496105386106880
+    m_Localized: "\u0130lerleme"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496166761357312
+    m_Localized: Antik Vazo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496262320185344
+    m_Localized: "Kraliyet Tac\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496341240209408
+    m_Localized: "Kristal Kafatas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496444562694144
+    m_Localized: "Hazine Haritas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496539282661376
+    m_Localized: "Z\xFCmr\xFCt Totemi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496632396210176
+    m_Localized: Madenci Madalyonu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496760813215744
+    m_Localized: Bulundu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5791728622624768
+    m_Localized: 'Yeni hazine bulundu: 0!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5809640829870080
+    m_Localized: "Y\xFCkseltmeler"
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 63073299c3fd841f98e7764d6fa48f8a
+guid: 6c0d749722f464e53b01f516395a6b4c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5568053616723736394
-    second: "Maden Mag\u0306aras\u0131 Oyun Arayu\u0308zu\u0308_0"
+      213: -2705696360508220114
+    second: "Fantastik Maden Mag\u0306aras\u0131 Arayu\u0308zu\u0308_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Maden Mag\u0306aras\u0131 Oyun Arayu\u0308zu\u0308_0"
+      name: "Fantastik Maden Mag\u0306aras\u0131 Arayu\u0308zu\u0308_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b84ad48cbc4ab2b0800000000000000
-      internalID: -5568053616723736394
+      spriteID: e2d17d9de7f637ad0800000000000000
+      internalID: -2705696360508220114
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Maden Mag\u0306aras\u0131 Oyun Arayu\u0308zu\u0308_0": -5568053616723736394
+      "Fantastik Maden Mag\u0306aras\u0131 Arayu\u0308zu\u0308_0": -2705696360508220114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

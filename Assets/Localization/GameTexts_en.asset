@@ -82,6 +82,170 @@ MonoBehaviour:
     m_Localized: Return to Surface
     m_Metadata:
       m_Items: []
+  - m_Id: 5127246770593792
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127309970366464
+    m_Localized: Ore Sales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127388751978496
+    m_Localized: Sell your mined ores to earn gold!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127552468246528
+    m_Localized: Sell
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127690951581696
+    m_Localized: 'Total Value: 0'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127798535479296
+    m_Localized: Refill Energy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127882484473856
+    m_Localized: 1.000 Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5127967700148224
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128019432693760
+    m_Localized: Claim Reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128100730888192
+    m_Localized: Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128147639984128
+    m_Localized: Coal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128205450076160
+    m_Localized: Copper
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128249205055488
+    m_Localized: Iron
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128318759198720
+    m_Localized: Silver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128432710049792
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128502687817728
+    m_Localized: Crystal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128586150273024
+    m_Localized: Diamond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128641020157952
+    m_Localized: Emrald
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128721135558656
+    m_Localized: Sapphire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128823199752192
+    m_Localized: Diamond Packs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5128933644165120
+    m_Localized: 20 Premium Diamonds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129029202993152
+    m_Localized: 60 Premium Diamonds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129142663110656
+    m_Localized: 150 Premium Diamonds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129238846889984
+    m_Localized: Payments are not available yet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129459333062656
+    m_Localized: Your energy is already full!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129574047277056
+    m_Localized: Not enough gold! You need 0 more gold.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129783963803648
+    m_Localized: Energy fully restored!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5129944400125952
+    m_Localized: +50 Gold Earned!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5130081063133184
+    m_Localized: You've already claimed your reward!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5130223673663488
+    m_Localized: Game data not found!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5465912026062848
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496105386106880
+    m_Localized: Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496166761357312
+    m_Localized: Ancient Vase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496262320185344
+    m_Localized: Royal Crown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496341240209408
+    m_Localized: Crystal Skull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496444562694144
+    m_Localized: Treasure Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496539282661376
+    m_Localized: Emerald Idol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496632396210176
+    m_Localized: Miner's Medallion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5496760813215744
+    m_Localized: Found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5791728622624768
+    m_Localized: 'New treasure discovered: 0!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5809640829870080
+    m_Localized: Upgardes
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

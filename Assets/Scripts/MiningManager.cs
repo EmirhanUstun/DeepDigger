@@ -353,7 +353,7 @@ public void AdvanceDepth()
 
     // GECICI PROTOTIP ARAYUZU
     
-private void OnGUI()
+private void OldDebugGUI_Disabled()
 {
     float scale = Mathf.Min(
         Screen.width / 420f,

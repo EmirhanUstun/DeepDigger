@@ -20,6 +20,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: bc04a4226f7784e3fa2f2af33364cd0a
+  - enabled: 1
+    path: Assets/Scenes/UpgradeScene.unity
+    guid: 5bfea7bd1bba24ee48f275005b63f02f
+  - enabled: 1
+    path: Assets/Scenes/ShopScene.unity
+    guid: 4a741d98a07904a1fb7a1e417f826c8b
+  - enabled: 1
+    path: Assets/Scenes/CollectionScene.unity
+    guid: 3407c70d91a744ba0b85ceed87d1b0b8
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 49b7040df9674459ebcaed35ff4c6d55, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
