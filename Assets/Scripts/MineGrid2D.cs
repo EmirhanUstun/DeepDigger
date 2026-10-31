@@ -607,6 +607,46 @@ public class MineGrid2D : MonoBehaviour
     // KAZMA SEVIYESI VE KIRMA SURELERI
     // ==================================================
 
+
+private int GetUpgradedPickaxeTier()
+{
+    GameDataManager data =
+        GameDataManager.GetInstance();
+
+    if (data == null)
+        return 0;
+
+    // UpgradeScene'de satin alinan seviye.
+    int level = Mathf.Clamp(
+        data.pickaxePower,
+        1,
+        5
+    );
+
+    // 5 seviye, 10 farkli kazma gucu.
+    switch (level)
+    {
+        case 1:
+            return 0;
+
+        case 2:
+            return 2;
+
+        case 3:
+            return 4;
+
+        case 4:
+            return 6;
+
+        case 5:
+            return 9;
+
+        default:
+            return 0;
+    }
+}
+
+
     private float GetMiningDuration(int oreIndex)
     {
         if (oreIndex < 0 ||
@@ -616,7 +656,7 @@ public class MineGrid2D : MonoBehaviour
         }
 
         int difference =
-            equippedPickaxeTier -
+            GetUpgradedPickaxeTier() -
             OreDifficultyTier[oreIndex];
 
         if (difference >= 2)

@@ -500,5 +500,109 @@ public class UpgradeController : MonoBehaviour
             energyUpgradeButton.interactable =
                 !energyMax;
         }
+
+        GetComponent<UpgradeLevelSlots>()?.RefreshSlots();
+
+        
+
     }
+
+
+#if UNITY_EDITOR
+
+    [ContextMenu("TEST - 10000 Altin Ver")]
+    private void GiveTestGold()
+    {
+        if (!Application.isPlaying)
+        {
+            Debug.LogWarning(
+                "Bu testi Play modunda yap."
+            );
+            return;
+        }
+
+        if (data == null)
+        {
+            data = GameDataManager.GetInstance();
+        }
+
+        if (data == null)
+            return;
+
+        // 10.000 altin ekle.
+        data.money += 10000;
+
+        // Kalici olarak kaydet.
+        data.SaveToDisk();
+
+        // Ekrandaki miktari yenile.
+        RefreshUI();
+
+        Debug.Log(
+            "TEST: 10.000 altin eklendi. " +
+            "Yeni bakiye: " + data.money
+        );
+    }
+
+#endif
+
+
+#if UNITY_EDITOR
+
+    [ContextMenu("TEST - Yukseltmeleri Sifirla")]
+    private void ResetUpgrades()
+    {
+        if (!Application.isPlaying)
+        {
+            Debug.LogWarning(
+                "Once Play moduna gir."
+            );
+            return;
+        }
+
+        GameDataManager data =
+            GameDataManager.GetInstance();
+
+        if (data == null)
+            return;
+
+        // Kazma baslangic seviyesi
+        data.pickaxePower = 1;
+
+        // Canta baslangic kapasitesi
+        data.bagCapacity = 20;
+
+        // Enerji baslangic kapasitesi
+        data.maxEnergy = 100;
+
+        // Mevcut enerji yeni maksimumu asmasin.
+        data.energy = Mathf.Clamp(
+            data.energy, 0, data.maxEnergy
+        );
+
+        // Hareket hizi yukseltmesi
+        PlayerPrefs.DeleteKey(
+            "DD_Upgrade_MoveSpeedLevel_v1"
+        );
+        PlayerPrefs.Save();
+
+        // Kalici kayit
+        data.SaveToDisk();
+
+        EnergyRecovery recovery =
+            data.GetComponent<EnergyRecovery>();
+
+        if (recovery != null)
+            recovery.SaveNow();
+
+        // Arayuzu yenile
+        RefreshUI();
+
+        Debug.Log(
+            "TEST: Yukseltmeler sifirlandi."
+        );
+    }
+
+#endif
+
 }
